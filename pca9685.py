@@ -36,3 +36,5 @@ class PCA9685:
             self.set_pwm(channel, 4096, 0)
         else:
             self.set_pwm(channel, 0, 4096)
+
+# 4 motors, only single pins, 3 per motor
