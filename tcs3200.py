@@ -2,9 +2,9 @@ import time
 from machine import Pin
 
 # --- Pin Configurations ---
-s0 = Pin(13, Pin.OUT)
-s1 = Pin(12, Pin.OUT)
-s2 = Pin(14, Pin.OUT)
+s0 = Pin(13, Pin.OUT) #change pin
+s1 = Pin(14, Pin.OUT) #change pin
+s2 = Pin(23, Pin.OUT) #change pin
 s3 = Pin(27, Pin.OUT)
 out_pin = Pin(35, Pin.IN)
 
